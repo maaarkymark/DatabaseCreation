@@ -1,0 +1,23 @@
+Queries of question 2 (Display all invoice data for invoice #):
+SELECT * FROM `Items` WHERE `Order No.` = 1 
+SELECT * FROM `Items` WHERE `Order No.` = 2
+SELECT * FROM `Items` WHERE `Order No.` = 3
+SELECT * FROM `Items` WHERE `Order No.` = 4
+SELECT * FROM `Items` WHERE `Order No.` = 5
+SELECT * FROM `Items` WHERE `Order No.` = 6
+SELECT * FROM `Items` WHERE `Order No.` = 7
+SELECT * FROM `Items` WHERE `Order No.` = 8
+SELECT * FROM `Items` WHERE `Order No.` = 9
+SELECT * FROM `Items` WHERE `Order No.` = 10
+
+Queries of question 3 (Display all invoice numbers for company X):
+SELECT * FROM `Order` WHERE `Comp. No.` = 1
+SELECT * FROM `Order` WHERE `Comp. No.` = 2 
+SELECT * FROM `Order` WHERE `Comp. No.` = 3 
+SELECT * FROM `Order` WHERE `Comp. No.` = 4 
+SELECT * FROM `Order` WHERE `Comp. No.` = 5 
+SELECT * FROM `Order` WHERE `Comp. No.` = 6 
+SELECT * FROM `Order` WHERE `Comp. No.` = 7
+SELECT * FROM `Order` WHERE `Comp. No.` = 8
+SELECT * FROM `Order` WHERE `Comp. No.` = 9
+SELECT * FROM `Order` WHERE `Comp. No.` = 10 

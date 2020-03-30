@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="LibraryDB2">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="TOSHA-LENOVO\SQLEXPRESS:Tosha-Lenovo\Vera">
+          <Created>2017-11-21T18:40:44.5495007-05:00</Created>
+          <Type>SQL</Type>
+          <Server>TOSHA-LENOVO\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>LibraryDB</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="10-insertOperation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TOSHA-LENOVO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TOSHA-LENOVO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10-insertOperation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1-createDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TOSHA-LENOVO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TOSHA-LENOVO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1-createDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2-createScemas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TOSHA-LENOVO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TOSHA-LENOVO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2-createScemas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3-createTablesBook.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TOSHA-LENOVO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TOSHA-LENOVO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3-createTablesBook.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4-createTablesMember.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TOSHA-LENOVO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TOSHA-LENOVO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4-createTablesMember.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5-createTablesOperation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TOSHA-LENOVO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TOSHA-LENOVO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5-createTablesOperation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="6-addPK.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TOSHA-LENOVO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TOSHA-LENOVO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>6-addPK.sql</FullPath>
+        </FileNode>
+        <FileNode Name="7-addFKother.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TOSHA-LENOVO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TOSHA-LENOVO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>7-addFKother.sql</FullPath>
+        </FileNode>
+        <FileNode Name="8-insertBook.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TOSHA-LENOVO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TOSHA-LENOVO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>8-insertBook.sql</FullPath>
+        </FileNode>
+        <FileNode Name="9-insertMember.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TOSHA-LENOVO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TOSHA-LENOVO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>9-insertMember.sql</FullPath>
+        </FileNode>
+        <FileNode Name="trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TOSHA-LENOVO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TOSHA-LENOVO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>trigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="views.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TOSHA-LENOVO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TOSHA-LENOVO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>views.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
